@@ -229,7 +229,8 @@ h1, h2, h3, h4, h5, h6,
     line-height: @line-height-heading;
 }
 h1,
-.h1 {
+.h1,
+.content > article:first-child > h1:first-child {
     font-size: @h1;
 }
 h2,
